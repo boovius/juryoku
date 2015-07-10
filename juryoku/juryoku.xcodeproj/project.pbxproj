@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D80494F1B4F844400C9A6A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80494E1B4F844400C9A6A5 /* AppDelegate.swift */; };
+		3D8049521B4F844400C9A6A5 /* juryoku.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3D8049501B4F844400C9A6A5 /* juryoku.xcdatamodeld */; };
+		3D8049541B4F844400C9A6A5 /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8049531B4F844400C9A6A5 /* ActivityViewController.swift */; };
+		3D8049571B4F844400C9A6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D8049551B4F844400C9A6A5 /* Main.storyboard */; };
+		3D8049591B4F844400C9A6A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D8049581B4F844400C9A6A5 /* Images.xcassets */; };
+		3D80495C1B4F844400C9A6A5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D80495A1B4F844400C9A6A5 /* LaunchScreen.xib */; };
+		3D8049681B4F844400C9A6A5 /* juryokuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8049671B4F844400C9A6A5 /* juryokuTests.swift */; };
+		3D8049721B4F855800C9A6A5 /* Activity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8049711B4F855800C9A6A5 /* Activity.swift */; };
+		3D8049751B4F857C00C9A6A5 /* Doing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8049741B4F857C00C9A6A5 /* Doing.swift */; };
+		3D8049771B4F85C400C9A6A5 /* ActivityCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8049761B4F85C400C9A6A5 /* ActivityCell.swift */; };
+		3D80497C1B4F864E00C9A6A5 /* DateProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D80497B1B4F864E00C9A6A5 /* DateProcessor.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D8049621B4F844400C9A6A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D8049411B4F844300C9A6A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D8049481B4F844400C9A6A5;
+			remoteInfo = juryoku;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D8049491B4F844400C9A6A5 /* juryoku.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = juryoku.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D80494D1B4F844400C9A6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D80494E1B4F844400C9A6A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3D8049511B4F844400C9A6A5 /* juryoku.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = juryoku.xcdatamodel; sourceTree = "<group>"; };
+		3D8049531B4F844400C9A6A5 /* ActivityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		3D8049561B4F844400C9A6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3D8049581B4F844400C9A6A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D80495B1B4F844400C9A6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3D8049611B4F844400C9A6A5 /* juryokuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = juryokuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D8049661B4F844400C9A6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D8049671B4F844400C9A6A5 /* juryokuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = juryokuTests.swift; sourceTree = "<group>"; };
+		3D8049711B4F855800C9A6A5 /* Activity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Activity.swift; sourceTree = "<group>"; };
+		3D8049741B4F857C00C9A6A5 /* Doing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Doing.swift; sourceTree = "<group>"; };
+		3D8049761B4F85C400C9A6A5 /* ActivityCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ActivityCell.swift; path = ../juryoku/ActivityCell.swift; sourceTree = "<group>"; };
+		3D80497B1B4F864E00C9A6A5 /* DateProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateProcessor.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D8049461B4F844400C9A6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D80495E1B4F844400C9A6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D8049401B4F844300C9A6A5 = {
+			isa = PBXGroup;
+			children = (
+				3D80494B1B4F844400C9A6A5 /* juryoku */,
+				3D8049641B4F844400C9A6A5 /* juryokuTests */,
+				3D80494A1B4F844400C9A6A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3D80494A1B4F844400C9A6A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D8049491B4F844400C9A6A5 /* juryoku.app */,
+				3D8049611B4F844400C9A6A5 /* juryokuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3D80494B1B4F844400C9A6A5 /* juryoku */ = {
+			isa = PBXGroup;
+			children = (
+				3D80494E1B4F844400C9A6A5 /* AppDelegate.swift */,
+				3D8049531B4F844400C9A6A5 /* ActivityViewController.swift */,
+				3D80497B1B4F864E00C9A6A5 /* DateProcessor.swift */,
+				3D8049551B4F844400C9A6A5 /* Main.storyboard */,
+				3D8049781B4F85F500C9A6A5 /* views */,
+				3D8049581B4F844400C9A6A5 /* Images.xcassets */,
+				3D80495A1B4F844400C9A6A5 /* LaunchScreen.xib */,
+				3D8049731B4F856600C9A6A5 /* Models */,
+				3D8049501B4F844400C9A6A5 /* juryoku.xcdatamodeld */,
+				3D80494C1B4F844400C9A6A5 /* Supporting Files */,
+			);
+			path = juryoku;
+			sourceTree = "<group>";
+		};
+		3D80494C1B4F844400C9A6A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D80494D1B4F844400C9A6A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D8049641B4F844400C9A6A5 /* juryokuTests */ = {
+			isa = PBXGroup;
+			children = (
+				3D8049671B4F844400C9A6A5 /* juryokuTests.swift */,
+				3D8049651B4F844400C9A6A5 /* Supporting Files */,
+			);
+			path = juryokuTests;
+			sourceTree = "<group>";
+		};
+		3D8049651B4F844400C9A6A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3D8049661B4F844400C9A6A5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3D8049731B4F856600C9A6A5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3D8049711B4F855800C9A6A5 /* Activity.swift */,
+				3D8049741B4F857C00C9A6A5 /* Doing.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3D8049781B4F85F500C9A6A5 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				3D8049761B4F85C400C9A6A5 /* ActivityCell.swift */,
+			);
+			name = views;
+			path = ../juryoku.xcodeproj;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3D8049481B4F844400C9A6A5 /* juryoku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D80496B1B4F844400C9A6A5 /* Build configuration list for PBXNativeTarget "juryoku" */;
+			buildPhases = (
+				3D8049451B4F844400C9A6A5 /* Sources */,
+				3D8049461B4F844400C9A6A5 /* Frameworks */,
+				3D8049471B4F844400C9A6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = juryoku;
+			productName = juryoku;
+			productReference = 3D8049491B4F844400C9A6A5 /* juryoku.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3D8049601B4F844400C9A6A5 /* juryokuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D80496E1B4F844400C9A6A5 /* Build configuration list for PBXNativeTarget "juryokuTests" */;
+			buildPhases = (
+				3D80495D1B4F844400C9A6A5 /* Sources */,
+				3D80495E1B4F844400C9A6A5 /* Frameworks */,
+				3D80495F1B4F844400C9A6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D8049631B4F844400C9A6A5 /* PBXTargetDependency */,
+			);
+			name = juryokuTests;
+			productName = juryokuTests;
+			productReference = 3D8049611B4F844400C9A6A5 /* juryokuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3D8049411B4F844300C9A6A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Boovius Projects";
+				TargetAttributes = {
+					3D8049481B4F844400C9A6A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					3D8049601B4F844400C9A6A5 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 3D8049481B4F844400C9A6A5;
+					};
+				};
+			};
+			buildConfigurationList = 3D8049441B4F844300C9A6A5 /* Build configuration list for PBXProject "juryoku" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3D8049401B4F844300C9A6A5;
+			productRefGroup = 3D80494A1B4F844400C9A6A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3D8049481B4F844400C9A6A5 /* juryoku */,
+				3D8049601B4F844400C9A6A5 /* juryokuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D8049471B4F844400C9A6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8049571B4F844400C9A6A5 /* Main.storyboard in Resources */,
+				3D80495C1B4F844400C9A6A5 /* LaunchScreen.xib in Resources */,
+				3D8049591B4F844400C9A6A5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D80495F1B4F844400C9A6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3D8049451B4F844400C9A6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D80497C1B4F864E00C9A6A5 /* DateProcessor.swift in Sources */,
+				3D8049541B4F844400C9A6A5 /* ActivityViewController.swift in Sources */,
+				3D80494F1B4F844400C9A6A5 /* AppDelegate.swift in Sources */,
+				3D8049721B4F855800C9A6A5 /* Activity.swift in Sources */,
+				3D8049521B4F844400C9A6A5 /* juryoku.xcdatamodeld in Sources */,
+				3D8049771B4F85C400C9A6A5 /* ActivityCell.swift in Sources */,
+				3D8049751B4F857C00C9A6A5 /* Doing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3D80495D1B4F844400C9A6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8049681B4F844400C9A6A5 /* juryokuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3D8049631B4F844400C9A6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3D8049481B4F844400C9A6A5 /* juryoku */;
+			targetProxy = 3D8049621B4F844400C9A6A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3D8049551B4F844400C9A6A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D8049561B4F844400C9A6A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3D80495A1B4F844400C9A6A5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3D80495B1B4F844400C9A6A5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3D8049691B4F844400C9A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3D80496A1B4F844400C9A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3D80496C1B4F844400C9A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juryoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3D80496D1B4F844400C9A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = juryoku/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3D80496F1B4F844400C9A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = juryokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juryoku.app/juryoku";
+			};
+			name = Debug;
+		};
+		3D8049701B4F844400C9A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = juryokuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/juryoku.app/juryoku";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3D8049441B4F844300C9A6A5 /* Build configuration list for PBXProject "juryoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D8049691B4F844400C9A6A5 /* Debug */,
+				3D80496A1B4F844400C9A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3D80496B1B4F844400C9A6A5 /* Build configuration list for PBXNativeTarget "juryoku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D80496C1B4F844400C9A6A5 /* Debug */,
+				3D80496D1B4F844400C9A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3D80496E1B4F844400C9A6A5 /* Build configuration list for PBXNativeTarget "juryokuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D80496F1B4F844400C9A6A5 /* Debug */,
+				3D8049701B4F844400C9A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3D8049501B4F844400C9A6A5 /* juryoku.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3D8049511B4F844400C9A6A5 /* juryoku.xcdatamodel */,
+			);
+			currentVersion = 3D8049511B4F844400C9A6A5 /* juryoku.xcdatamodel */;
+			path = juryoku.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3D8049411B4F844300C9A6A5 /* Project object */;
+}

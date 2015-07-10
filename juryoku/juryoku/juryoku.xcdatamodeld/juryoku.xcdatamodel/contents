@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14E46" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Activity" syncable="YES">
+        <attribute name="activity" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="doneLastAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="doing" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Doing" inverseName="activity" inverseEntity="Doing" syncable="YES"/>
+    </entity>
+    <entity name="Doing" syncable="YES">
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="activity" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Activity" inverseName="doing" inverseEntity="Activity" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Activity" positionX="-63" positionY="-18" width="128" height="90"/>
+        <element name="Doing" positionX="-54" positionY="9" width="128" height="75"/>
+    </elements>
+</model>
